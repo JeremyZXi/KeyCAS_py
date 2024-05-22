@@ -226,7 +226,6 @@ document.getElementById('save-button').addEventListener('click', function() {
   }).then(response => response.json())
     .then(data => alert(data.message));
 });
-
 // Toggle button functionality[abandoned]
 /*document.getElementById('toggle-button').addEventListener('click', () => {
     const buttonsContainer = document.getElementById('buttons-container');
